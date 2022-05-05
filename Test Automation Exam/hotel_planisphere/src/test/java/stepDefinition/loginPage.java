@@ -159,7 +159,6 @@ public class loginPage extends helpers {
 
     @Then("the copyright text should be displayed correctly")
     public void the_copyright_text_should_be_displayed_correctly() {
-        // Write code here that turns the phrase above into concrete actions
         Assert.assertEquals(footerCopyrightText, "© 2020 Test Planisphere");
     }
 
